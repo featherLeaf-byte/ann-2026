@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lusama &amp; Andiswa · Anniversary Dinner · 9 November 2026</title>
+  <meta name="description" content="You are invited to Lusama and Andiswa's anniversary dinner at Simon's Restaurant, Groot Constantia, on Monday 9 November 2026 at 7:00 PM.">
+  <meta name="theme-color" content="#2e0713">
+  <meta property="og:title" content="Lusama &amp; Andiswa · Anniversary Dinner">
+  <meta property="og:description" content="Monday 9 November 2026 · 7:00 PM · Simon's Restaurant, Groot Constantia">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23d4b06a' d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <noscript><style>.seal-screen{display:none}</style></noscript>
+</head>
+<body>
+
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <div class="seal-screen" id="seal">
+    <p class="seal-screen__eyebrow">An invitation</p>
+    <p class="seal-screen__names">Lusama <em>&amp;</em> Andiswa</p>
+    <button class="seal" id="sealButton" type="button" aria-label="Open the invitation">
+      <span class="seal__monogram" aria-hidden="true">L<em>&amp;</em>A</span>
+    </button>
+    <p class="seal-screen__hint">Tap the seal to open</p>
+  </div>
+
+  <main id="main">
+
+    <header class="hero" id="hero">
+      <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+      <div class="hero__text">
+        <p class="eyebrow" data-enter style="--i:0">You are invited to</p>
+        <h1 class="names">
+          <span class="names__line"><span style="--i:1">Lusama</span></span>
+          <span class="names__amp" data-enter style="--i:2">&amp;</span>
+          <span class="names__line"><span style="--i:3">Andiswa</span></span>
+        </h1>
+        <p class="hero__title" data-enter style="--i:4">Anniversary Dinner</p>
+        <p class="hero__when" data-enter style="--i:5">
+          <time datetime="2026-11-09T19:00:00+02:00">Monday, 9 November 2026 · 7:00 PM</time>
+        </p>
+        <p class="hero__where" data-enter style="--i:6">Simon's Restaurant · Groot Constantia</p>
+        <div class="hero__actions" data-enter style="--i:7">
+          <a class="btn btn--gold" href="#rsvp">Reply</a>
+          <a class="btn btn--ghost" href="#details">See the details</a>
+        </div>
+      </div>
+      <figure class="arch">
+        <img src="images/2025-07-ring.jpg" width="1159" height="869"
+             alt="Lusama and Andiswa smiling together at a restaurant table, Andiswa holding up her hand to show her ring">
+      </figure>
+      <a class="scroll-cue" href="#quote" aria-label="Scroll down"><span>Scroll</span><i></i></a>
+    </header>
+
+    <section class="countdown" aria-labelledby="countdownTitle">
+      <h2 class="visually-hidden" id="countdownTitle">Countdown to dinner</h2>
+      <ol class="countdown__grid" id="countdownGrid" role="timer" data-stagger>
+        <li><span class="countdown__num" id="cdDays">00</span><span class="countdown__label">Days</span></li>
+        <li><span class="countdown__num" id="cdHours">00</span><span class="countdown__label">Hours</span></li>
+        <li><span class="countdown__num" id="cdMinutes">00</span><span class="countdown__label">Minutes</span></li>
+        <li><span class="countdown__num" id="cdSeconds">00</span><span class="countdown__label">Seconds</span></li>
+      </ol>
+      <p class="countdown__note reveal" id="countdownNote" style="--delay:.5s">until we raise a glass</p>
+    </section>
+
+    <section class="quote" id="quote" aria-label="A note from us">
+      <div class="quote__sticky">
+        <svg class="quote__heart" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+        <p class="quote__text" id="quoteText">Here's to the sunsets, the silly faces and every meal we have shared. Tonight, we add one more to the list.</p>
+      </div>
+    </section>
+
+    <section class="section details" id="details" aria-labelledby="detailsTitle">
+      <div class="section__head" data-stagger>
+        <p class="eyebrow eyebrow--dark">The evening</p>
+        <h2 id="detailsTitle">An evening to celebrate us</h2>
+        <div class="ornament" aria-hidden="true"><span></span></div>
+        <p class="lead">Good food, good wine and a view of the Constantia vineyards.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal reveal--left">
+          <h3>When</h3>
+          <p class="card__big">Monday</p>
+          <p class="card__big">9 November 2026</p>
+          <p class="card__time">7:00 PM</p>
+          <div class="card__actions">
+            <button class="btn btn--wine" type="button" id="addToCalendar">Add to calendar</button>
+            <a class="link" id="googleCalendar" href="#" target="_blank" rel="noopener">Google Calendar</a>
+          </div>
+        </article>
+
+        <article class="card reveal reveal--right" style="--delay:.15s">
+          <h3>Where</h3>
+          <p class="card__big">Simon's Restaurant</p>
+          <address class="card__small">
+            Groot Constantia Wine Estate<br>
+            Groot Constantia Rd, Constantia<br>
+            Cape Town, 7806
+          </address>
+          <div class="card__actions">
+            <a class="btn btn--wine" id="directions" href="#" target="_blank" rel="noopener">Get directions</a>
+            <a class="link" href="tel:+27217941143">021 794 1143</a>
+            <a class="link" href="https://simons.co.za/wp-content/uploads/2026/08/Simons-Main-Menu.pdf" target="_blank" rel="noopener">View the menu</a>
+            <a class="link" href="https://simons.co.za/" target="_blank" rel="noopener">simons.co.za</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="map reveal reveal--zoom">
+        <iframe id="mapFrame" title="Map showing Simon's Restaurant at Groot Constantia" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="section story" aria-labelledby="storyTitle">
+      <div class="section__head" data-stagger>
+        <p class="eyebrow eyebrow--dark">Our story so far</p>
+        <h2 id="storyTitle">A few of our favourite moments</h2>
+        <div class="ornament" aria-hidden="true"><span></span></div>
+      </div>
+
+      <div class="timeline" id="timeline">
+        <div class="timeline__line" aria-hidden="true"><span class="timeline__fill"></span></div>
+
+        <article class="moment moment--left">
+          <span class="moment__dot" aria-hidden="true"></span>
+          <p class="moment__date reveal reveal--right"><time datetime="2025-02">February<span>2025</span></time></p>
+          <figure class="polaroid moment__card reveal reveal--left" style="--tilt:-1.5deg">
+            <button type="button" data-lightbox data-full="images/2025-02-waterfront-sunset.jpg" data-caption="February 2025 · Sunset at the Waterfront">
+              <img src="images/2025-02-waterfront-sunset.jpg" width="1545" height="869" loading="lazy"
+                   alt="Lusama and Andiswa at the harbour with Table Mountain behind them at sunset">
+            </button>
+            <figcaption>Sunset at the Waterfront</figcaption>
+          </figure>
+        </article>
+
+        <article class="moment moment--right">
+          <span class="moment__dot" aria-hidden="true"></span>
+          <p class="moment__date reveal reveal--left"><time datetime="2025-03">March<span>2025</span></time></p>
+          <figure class="polaroid polaroid--tall moment__card reveal reveal--right" style="--tilt:1.2deg">
+            <button type="button" data-lightbox data-full="images/2025-03-golden-hour.jpg" data-caption="March 2025 · Golden hour">
+              <img src="images/2025-03-golden-hour.jpg" width="489" height="869" loading="lazy"
+                   alt="The two of them grinning in the golden evening light, wearing earbuds">
+            </button>
+            <figcaption>Golden hour</figcaption>
+          </figure>
+        </article>
+
+        <article class="moment moment--left">
+          <span class="moment__dot" aria-hidden="true"></span>
+          <p class="moment__date reveal reveal--right"><time datetime="2025-10">October<span>2025</span></time></p>
+          <figure class="polaroid moment__card reveal reveal--left" style="--tilt:-0.8deg">
+            <button type="button" data-lightbox data-full="images/2025-10-harbour-house.jpg" data-caption="October 2025 · Pulling faces, as always">
+              <img src="images/2025-10-harbour-house.jpg" width="1545" height="869" loading="lazy"
+                   alt="Both pulling silly faces in front of a harbour-side restaurant">
+            </button>
+            <figcaption>Pulling faces, as always</figcaption>
+          </figure>
+        </article>
+
+        <article class="moment moment--right">
+          <span class="moment__dot" aria-hidden="true"></span>
+          <p class="moment__date reveal reveal--left"><time datetime="2025-11">November<span>2025</span></time></p>
+          <figure class="polaroid moment__card reveal reveal--right" style="--tilt:1.6deg">
+            <button type="button" data-lightbox data-full="images/2025-11-beach.jpg" data-caption="November 2025 · Sea air and sunshine">
+              <img src="images/2025-11-beach.jpg" width="1545" height="869" loading="lazy"
+                   alt="Cheek to cheek and smiling on the beach under a clear blue sky">
+            </button>
+            <figcaption>Sea air and sunshine</figcaption>
+          </figure>
+        </article>
+
+        <article class="moment moment--left">
+          <span class="moment__dot" aria-hidden="true"></span>
+          <p class="moment__date reveal reveal--right"><time datetime="2026-03">March<span>2026</span></time></p>
+          <figure class="polaroid polaroid--tall moment__card reveal reveal--left" style="--tilt:-1.1deg">
+            <button type="button" data-lightbox data-full="images/2026-03-kiss.jpg" data-caption="March 2026 · A kiss for the camera">
+              <img src="images/2026-03-kiss.jpg" width="489" height="869" loading="lazy"
+                   alt="Both puckering up for a kiss in a close selfie">
+            </button>
+            <figcaption>A kiss for the camera</figcaption>
+          </figure>
+        </article>
+
+        <article class="moment moment--right moment--tonight">
+          <span class="moment__dot" aria-hidden="true"></span>
+          <p class="moment__date reveal reveal--left"><time datetime="2026-11-09">Tonight<span>9 November 2026</span></time></p>
+          <div class="moment__card moment__tonight reveal reveal--right">
+            <p>Dinner at Simon's · 7:00 PM</p>
+            <a class="link" href="#rsvp">See you there</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="rsvp" id="rsvp" aria-labelledby="rsvpTitle">
+      <div class="rsvp__float" id="rsvpFloat" aria-hidden="true"></div>
+      <div class="rsvp__inner">
+        <p class="eyebrow reveal">Will you be there?</p>
+        <h2 id="rsvpTitle" class="reveal" style="--delay:.12s">Save the evening for us</h2>
+
+        <div id="rsvpAsk" class="reveal" style="--delay:.24s">
+          <p class="lead">Monday, 9 November · 7:00 PM · Simon's Restaurant</p>
+          <button class="btn btn--gold btn--lg" type="button" id="rsvpYes">Yes, I'll be there</button>
+        </div>
+
+        <div id="rsvpDone" hidden>
+          <p class="rsvp__done">It's a date.</p>
+          <p class="lead">7:00 PM at Simon's. I can't wait.</p>
+          <button class="btn btn--ghost" type="button" id="rsvpUndo">Change my answer</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer__names">Lusama <em>&amp;</em> Andiswa Fatman</p>
+    <p>9 November 2026 · Simon's Restaurant, Groot Constantia</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+    <div class="lightbox__inner">
+      <form method="dialog"><button class="lightbox__close" aria-label="Close photo">&times;</button></form>
+      <img id="lightboxImg" alt="">
+      <p id="lightboxCaption"></p>
+    </div>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" id="lbPrev" aria-label="Previous photo">&lsaquo;</button>
+    <button class="lightbox__nav lightbox__nav--next" type="button" id="lbNext" aria-label="Next photo">&rsaquo;</button>
+  </dialog>
+
+  <a class="reply-pill" id="replyPill" href="#rsvp">Reply</a>
+
+  <div class="hearts" id="hearts" aria-hidden="true"></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
