@@ -1,12 +1,12 @@
 'use strict';
 
 const EVENT = {
-  title: "Lusama & Andiswa's Anniversary Dinner",
+  title: "Lusama & Andiswa's First Anniversary Dinner",
   start: new Date('2026-11-09T19:00:00+02:00'),
   hours: 3,
   venue: "Simon's Restaurant, Groot Constantia Wine Estate",
   address: 'Groot Constantia Rd, Constantia, Cape Town, 7806',
-  details: "Anniversary dinner at Simon's Restaurant. Phone: 021 794 1143. https://simons.co.za/",
+  details: "First anniversary dinner at Simon's Restaurant. Phone: 021 794 1143. https://simons.co.za/",
 };
 EVENT.end = new Date(EVENT.start.getTime() + EVENT.hours * 3600 * 1000);
 EVENT.location = `${EVENT.venue}, ${EVENT.address}`;
@@ -71,7 +71,7 @@ function tickCountdown() {
   cdGrid.hidden = true;
   cdNote.textContent = now < EVENT.end
     ? "Tonight is the night. See you at Simon's."
-    : 'Happy anniversary, my love.';
+    : 'Happy first anniversary, my love.';
   if (now >= EVENT.end) clearInterval(countdownTimer);
 }
 
